@@ -1,0 +1,260 @@
+body{
+    margin: auto;
+    background-color: #ffff;
+}
+
+.nav{
+    
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    flex-grow: 1;
+}
+
+.nav img{
+    width: 30px;
+    height: 30px;
+    border: 3px solid #000000;
+    border-radius: 10%;
+    margin: 10px;
+    padding: 10px;
+}
+
+.nav a{
+
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+}
+
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    margin: 20px;
+    justify-content: center;
+}
+
+.presentation{
+    margin: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 25px;
+}
+
+.presentation img{
+    margin: 20px;
+    height: 250px;
+    width: 250px;
+}
+
+.presentationContainer{
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    flex-direction: column;
+}
+
+.presentationContainer a{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #c2c2c2;
+    font-weight: bold;
+    font-size: 40px;
+}
+
+.contactos{
+    display: flex;
+    align-items: center;
+    border: 1px solid #858483;
+    border-radius: 20px;
+    margin: 10px 0px;
+    padding: 10px ;
+    width: fit-content;
+}
+
+
+.contactos a{
+    color:#858483;
+    font-size: 10px;
+}
+
+
+.contactos img{
+    width: 20px;
+    height: 20px;
+    margin: 3px 10px;
+}
+
+.miResumen{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+
+.miDescripcion{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    padding: 30px;
+    border-radius: 20px;
+    background-color: rgb(236, 236, 236);
+}
+
+.miDescripcion h1{
+    font-size:20px;
+    font-weight: lighter;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 20px 0px;
+    color: #222222;
+    
+}
+
+.miDescripcion a{
+    font-size:10px;
+    font-weight: lighter;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 10px 0px;
+    color: #424242;
+    
+}
+
+.miDescripcionTextoSimbolo{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.miDescripcionTextoSimbolo img{
+    width:30px;
+    height: 30px;
+    margin-right: 5px;
+}
+
+
+.miExperiencia{
+  display: flex;
+  
+  flex-direction: column;
+  padding: 30px;
+  padding-top:0px ;
+    
+}
+
+.miExperiencia h1{
+    font-size:20px;
+    font-weight: lighter;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-bottom: 10px;
+    color: #222222;
+
+}
+
+.miExperiencia a{
+
+    font-size:10px;
+    font-weight: lighter;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-bottom: 10px;
+    color: #424242;
+}
+
+.programmingLanguageContainer{
+
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    
+}
+
+.programmingLanguageContainer h1{
+
+    font-size:20px;
+    font-weight: lighter;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-bottom: 10px;
+    color: #222222;
+}
+
+.tiposLenguajesContainer{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    gap: 20px;
+
+}
+
+.lenguajeContainer{
+    display: flex;
+    width: 100px;
+    flex-direction: row;
+    background-color:  rgb(236, 236, 236);
+    border-radius: 10px;
+    align-items: center;
+    padding: 10px;
+
+}
+
+.lenguajeContainer img{
+
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+}
+
+
+.lenguajeContainer a{
+
+    font-size:10px;
+    font-weight: lighter;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #424242;
+}
+
+.extraContactContainer{
+
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    background-color: #c2c2c2;
+    align-items: center;
+    padding: 10px;
+    gap:20px
+
+}
+
+.extraContact{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 10px;
+    background-color: #ffff;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    border-width: 0px;
+
+
+}
+
+.extraContact img{
+    width: 20px;
+    height: 20px;
+}
+
+.extraContact a{
+  
+    margin-left:10px ;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+.copyrightSection{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: #c2c2c2;
+    padding: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+
+
